@@ -1,0 +1,101 @@
+.profile-wrapper{
+    display: flex;
+    height: calc(100% - (66px));
+}
+
+.profile-wrapper .left-sidebar{
+    width:20%;
+    height:100%;
+    background:#ffe79e;
+    position: fixed;
+}
+.profile-wrapper .left-sidebar ul{
+    list-style: none;
+    margin:0px;
+    padding:0px;
+    color:#444;
+}
+.profile-wrapper .left-sidebar ul li a{
+    padding:18px;
+    display:block;
+    border-bottom: 1px solid #cf9c04; ;
+}
+.profile-wrapper .left-sidebar ul li a:hover{
+    background:#f8cd7d; 
+}
+.profile-wrapper .profile-content{
+    flex:8;
+    height:100vh;
+    padding:40px 100px 100px;
+    overflow-y:scroll;
+    margin-left:20%;
+}
+.profile-content .page-title{
+    text-align: center;
+    margin-bottom: 1.5rem;
+
+}
+table{
+    width:100%;
+    border-collapse: collapse;
+    font-size:1.1rem;
+}
+th,td{
+    padding:15px;
+    text-align: left;
+    border-bottom: 1px solid #d3d3d3;
+}
+.edit{
+    color:green;
+}
+.edit:hover,
+.delete:hover,
+.publish:hover{
+    text-decoration: underline;
+
+}
+.delete{
+    color:red;
+}
+.publish{
+    color:blue;
+}
+.profile-wrapper .profile-content .info-wrapper{
+    height:300px;
+    width:400px;
+    margin: 0 auto;
+}
+.info-wrapper .user-img{
+    text-align: center;
+}
+
+.user-img .img-circle{
+    margin: 0 auto;
+    height:110px;
+    width:120px;
+}
+.edit-button{
+    text-align: center;
+}
+.edit-profile{
+    height:400px;
+    width:500px;
+    margin: 0 auto;
+}
+.edit-profile h3{
+    text-align: center;
+}
+.unpublish:hover{
+    text-decoration:underline;
+}
+.update-profile{
+    margin-top: 10px;
+}
+.likedposts:hover{
+color:red;
+
+}
+form div{
+    margin-bottom: 15px;
+}
+
